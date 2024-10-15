@@ -1,0 +1,34 @@
+.appButtonContainer {
+    width: 110px;
+    height: 40px;
+}
+.appButton {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--button-text);
+    font-size: 16px;
+}
+.appButton:hover{
+    cursor: pointer;
+}
+
+.chatSendButtonContainer {
+    height: 40px;
+    width: 60px;
+}
+.chatSendButton {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0px 0px 15px 0px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatSendButton:hover {
+    cursor: pointer;
+}
