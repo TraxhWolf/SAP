@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 50vw;
+    height: 75vh;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: var(--accent);
+}
+.convoContainer{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: var(--accent);
+}
+
+.inputContainer{
+    width: 100%;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonContainer {
+    height: 40px;
+    width: 60px;
+    background-color: var(--background);
+    border-radius: 0px 0px 15px 0px;
+    padding: 1px;
+}
